@@ -1,0 +1,21 @@
+
+.toast-right{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    min-width: 30%;
+    z-index:99;
+
+    .toast-header{
+        color: #fff;
+        background: #007bff;
+      }
+  }
+  
+  .toast-header > button, .toast-header > button:hover, .toast-body{
+    color: #fff;
+  }
+  
+  .toast-body{
+    background: rgb(66, 65, 65);
+  }
